@@ -6,6 +6,7 @@ import 'package:flutter_geocode/flutter_geocode.dart';
 
 void main() {
   runApp(MyApp());
+  FlutterGeocode.apikey("apikey");
 }
 
 class MyApp extends StatefulWidget {
@@ -19,7 +20,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    FlutterGeocode.apikey("AIzaSyDsBB2pBFMYWL1rO8eCU2_fQuNjlFThGZU");
     initPlatformState();
   }
 
